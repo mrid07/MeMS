@@ -5,7 +5,7 @@
 #include <string.h>
 
 
-#define Page_Size getpagesize();
+#define Page_Size 4096;
 
 struct mainNode{
     struct mainNode *prev;
